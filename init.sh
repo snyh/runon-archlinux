@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+#TODO: automatically download http://mirrors.163.com/archlinux/iso/latest/
+
 uu=$SUDO_USER
 
 export XDG_RUNTIME_DIR=/run/user/$SUDO_UID
